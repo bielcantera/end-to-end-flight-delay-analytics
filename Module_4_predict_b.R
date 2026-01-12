@@ -40,7 +40,7 @@ library(corrplot)
 # Suppress warnings
 options(warn = -1)
 
-setwd("C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 4/Case/")
+setwd("C:\Users\Biel Cantera Potente\Desktop\Business Intelligence\data\")
 
 #======================================================================================================
 # Part 1: Classification
@@ -1180,6 +1180,7 @@ for (model in models) {
 }
 
 # Better before or after PCA??
+
 
 
 
