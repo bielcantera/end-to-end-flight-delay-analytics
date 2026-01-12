@@ -19,7 +19,7 @@ import gc  # Python's garbage collector
 
 # Read the data
 # Ensure the path is correctly set for your environment
-df = pd.read_csv('C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 7/Case/train_val.csv')
+df = pd.read_csv('C:/Users/BielCantera/iCloudDrive/Documents/data/train_val.csv')
 
 # Data preprocessing
 df = df.drop(columns=['DAY_OF_MONTH', 'OP_UNIQUE_CARRIER', 'AIRLINE_FLIGHTS_MONTH', 'TAIL_NUM',
@@ -111,4 +111,5 @@ print("\nClassification Report for Training Data:")
 print(classification_report(y_train, predictions_train))
 
 print("\nClassification Report for Test Data:")
+
 print(classification_report(y_test, predictions_test))
