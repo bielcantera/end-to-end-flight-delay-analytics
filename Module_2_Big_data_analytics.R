@@ -34,7 +34,7 @@ library(tidyr)
 # Suppress warnings
 options(warn = -1)
 
-setwd("C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 2/")
+setwd("C:\Users\Biel Cantera Potente\Desktop\Business Intelligence\data\")
 
 # Read the CSV file into a dataframe
 passengers <- read.csv('T3_AIR_CARRIER_SUMMARY_AIRPORT_ACTIVITY_2019.csv')
@@ -198,4 +198,5 @@ weather <- weather %>%
 
 # Display the dataframe
 print(weather)
+
 
